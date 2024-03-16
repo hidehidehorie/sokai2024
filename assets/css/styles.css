@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "Nosutaru";
+  src: url("../fonts/Nosutaru-dotMPlusH-10-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Nosutaru", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #021030;
+}
+
+.top {
+  text-align: center;
+}
+
+.sectionContainer {
+  padding-inline: 12px;
+  margin-inline: auto;
+}
+
+.topSection {
+  background-color: #021030;
+  text-align: center;
+  color: white;
+}
+
+.topSection__message {
+  display: block;
+  margin-bottom: 40px;
+  line-height: 2.4;
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+
+.topSection__icon {
+}
+
+.messageSection {
+  background-color: #021030;
+  text-align: center;
+  color: white;
+}
+
+.messageSection__paragraph {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+  line-height: 2.8;
+  letter-spacing: 0.15rem;
+}
+
+.memberSection {
+  background-color: white;
+  color: #021030;
+}
+
+.memberSection__title {
+  text-align: center;
+  font-size: 1.625rem;
+}
+
+.memberSection__subTitle {
+  display: block;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+.memberSection__members {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.memberSection__member {
+  display: flex;
+  gap: 24px;
+}
+
+.memberSection__memberCircle {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+  &.memberSection__memberCircle--yellow {
+    background-color: #fff16f;
+  }
+
+  &.memberSection__memberCircle--blue {
+    background-color: #8deaff;
+  }
+}
+
+.memberSection__memberBody {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.memberSection__memberName {
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 3.2px;
+
+  &.memberSection__memberName--sakai {
+    color: #ff774b;
+  }
+
+  &.memberSection__memberName--aiboshi {
+    color: #4cd098;
+  }
+
+  &.memberSection__memberName--horie {
+    color: #0070ce;
+  }
+
+  &.memberSection__memberName--ohtsuki {
+    color: #ff6f6f;
+  }
+
+  &.memberSection__memberName--takizawa {
+    color: #6fb1ff;
+  }
+
+  &.memberSection__memberName--aida {
+    color: #6fb1ff;
+  }
+}
+
+.memberSection__memberPosition {
+  color: #013662;
+  font-size: 0.625rem;
+  line-height: 1;
+}
+
+.memberSection__memberMessage {
+  color: #013662;
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+
+.bottomSection {
+  background-color: #021030;
+  text-align: center;
+  color: white;
+}
+
+.bottomSection__message {
+  display: block;
+  line-height: 2.4;
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  background-color: #021030;
+  color: white;
+  font-size: 0.875rem;
+}
+
+.animation {
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  width: 128px;
+}
+
+.fadein {
+  animation-name: fadeIn;
+  animation-direction: normal;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
