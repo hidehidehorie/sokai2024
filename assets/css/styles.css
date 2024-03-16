@@ -23,7 +23,7 @@ body {
 }
 
 .sectionContainer {
-  padding-inline: 12px;
+  padding-inline: 28px;
   margin-inline: auto;
 }
 
@@ -45,16 +45,23 @@ body {
 }
 
 .messageSection {
-  background-color: #021030;
+  background: linear-gradient(180deg, #000a22 0%, #013662 100%);
   text-align: center;
   color: white;
+}
+
+.messageSection__message {
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .messageSection__paragraph {
   margin-bottom: 2rem;
   font-size: 0.875rem;
   line-height: 2.8;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.04em;
+  text-indent: 0.04em;
 }
 
 .memberSection {
@@ -65,6 +72,8 @@ body {
 .memberSection__title {
   text-align: center;
   font-size: 1.625rem;
+  letter-spacing: 0.21em;
+  text-indent: 0.29em;
 }
 
 .memberSection__subTitle {
@@ -72,6 +81,7 @@ body {
   margin-bottom: 40px;
   text-align: center;
   font-size: 0.75rem;
+  text-indent: 0.1em;
 }
 
 .memberSection__members {
@@ -151,7 +161,7 @@ body {
 }
 
 .bottomSection {
-  background-color: #021030;
+  background: linear-gradient(180deg, #021030 0%, #1e6eab 31%, #fff7b1 100%);
   text-align: center;
   color: white;
 }
@@ -166,7 +176,6 @@ body {
 .footer {
   display: block;
   text-align: center;
-  background-color: #021030;
   color: white;
   font-size: 0.875rem;
 }
