@@ -13,23 +13,23 @@ body {
   overflow-x: hidden;
 }
 
-.fullPageScrollContainer {
-  /* overflow-y: auto;
-  height: 100vh; */
-}
-
 .sectionContainer {
   width: 100%;
   padding-inline: 28px;
   margin-inline: auto;
 }
 
+.topSection__wrapper {
+  padding-bottom: 20vh;
+  height: 120vh;
+  background-color: #000a22;
+}
+
 .topSection {
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: 100%;
   position: relative;
-  background-color: #000a22;
   text-align: center;
   color: white;
 }
@@ -43,7 +43,7 @@ body {
 
 .topSection__icon {
   position: absolute;
-  bottom: 48px;
+  top: 80vh;
   left: 50%;
   transform: translateX(-50%);
   animation: flash 1.2s ease-in-out infinite;
@@ -255,7 +255,7 @@ body {
   min-height: 100svh;
 }
 
-.interval {
+.bottomSection__interval {
   height: 400px;
 }
 

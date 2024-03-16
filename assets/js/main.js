@@ -8,21 +8,28 @@ window.sokai.main = {
     };
 
     const topSection = document.getElementById("js-topSection");
+    const topSectionWrapper = document.getElementById("js-topSectionWrapper");
+    const scrollHeight = topSectionWrapper.getBoundingClientRect().height;
     const viewportHeight = window.innerHeight;
     const topSectionObserver = new IntersectionObserver(([entry]) => {
       const scrollY = window.scrollY;
-      if (entry.isIntersecting) {
-        if (scrollY > (viewportHeight * 50) / 100) {
-          window.scrollTo({
-            top: 0,
-            behavior: "smooth",
-          });
-        } else if (scrollY > (viewportHeight * 10) / 100) {
-          window.scrollTo({
-            top: viewportHeight,
-            behavior: "smooth",
-          });
-        }
+
+      if (
+        entry.intersectionRatio < 0.9 &&
+        scrollY < (viewportHeight * 30) / 100
+      ) {
+        window.scrollTo({
+          top: scrollHeight,
+          behavior: "smooth",
+        });
+      } else if (
+        entry.intersectionRatio > 0.3 &&
+        scrollY > (viewportHeight * 50) / 100
+      ) {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
       }
     }, options);
 
