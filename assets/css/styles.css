@@ -63,7 +63,7 @@ body {
 }
 
 .messageSection {
-  padding: 60px 0 32px;
+  padding: 60px 0 72px;
   position: relative;
   z-index: 1;
   background: linear-gradient(180deg, #000a22 0%, #013662 100%);
@@ -306,6 +306,28 @@ body {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.messageSection__blur {
+  width: 120%;
+  height: 100px;
+  position: absolute;
+  bottom: -20px;
+  background: linear-gradient(180deg, #000a22 0%, #013662 100%);
+  background-size: 100% 500%;
+  background-repeat: no-repeat;
+  animation: change-blur-color auto linear forwards;
+  animation-timeline: scroll();
+  filter: blur(10px);
+}
+
+@keyframes change-blur-color {
+  15% {
+    background-position: 0% 0%;
+  }
+  96% {
+    background-position: 0% 360%;
+  }
 }
 
 .messageSection__party {
