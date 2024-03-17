@@ -63,7 +63,7 @@ body {
 }
 
 .messageSection {
-  padding: 60px 0 120px;
+  padding: 60px 0 32px;
   position: relative;
   z-index: 1;
   background: linear-gradient(180deg, #000a22 0%, #013662 100%);
@@ -314,7 +314,6 @@ body {
   gap: 4px;
   position: absolute;
   bottom: -4px;
-  left: 6%;
   animation: move-party auto linear;
   animation-timeline: scroll();
 
@@ -326,11 +325,16 @@ body {
 
 @keyframes move-party {
   0% {
-    transform: translateX(-858px);
+    transform: translateX(-898px);
   }
   100% {
-    transform: translateX(1440px);
+    transform: translateX(1548px);
   }
+}
+
+.interval {
+  height: 72px;
+  background-color: #013662;
 }
 
 .memberSection {
