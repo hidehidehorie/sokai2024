@@ -10,7 +10,7 @@ window.sokai.main = {
     const topSection = document.getElementById("js-topSection");
     const topSectionWrapper = document.getElementById("js-topSectionWrapper");
     const scrollHeight = topSectionWrapper.getBoundingClientRect().height;
-    const viewportHeight = window.innerHeight;
+    const viewportHeight = document.documentElement.clientHeight;
     const topSectionObserver = new IntersectionObserver(([entry]) => {
       const scrollY = window.scrollY;
 

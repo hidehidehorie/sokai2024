@@ -9,9 +9,9 @@ body {
   font-family: "Nosutaru", sans-serif;
 }
 
-/* .wrapper {
-  overflow-x: hidden;
-} */
+.wrapper {
+  overflow-x: clip;
+}
 
 .sectionContainer {
   width: 100%;
@@ -120,8 +120,6 @@ body {
 }
 
 .memberSection {
-  /* overflow-x: hidden;
-  width: 100vw; */
   padding-block: 32px;
   position: relative;
   background-color: white;
