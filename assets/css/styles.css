@@ -85,7 +85,7 @@ body {
   text-indent: 0.04em;
 }
 
-.messageSection__backgroundWrapper {
+.messageSection__stickyContainerWrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -301,6 +301,13 @@ body {
   }
 }
 
+.messageSection__partyWrapper {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 .messageSection__party {
   display: flex;
   flex-direction: row-reverse;
@@ -331,7 +338,7 @@ body {
   position: relative;
   background-color: white;
   color: #021030;
-  z-index: 1;
+  z-index: 2;
 
   &::before,
   &::after {
