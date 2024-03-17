@@ -347,15 +347,15 @@ body {
 
 @keyframes move-party {
   0% {
-    transform: translateX(-898px);
+    transform: translateX(-242%);
   }
   100% {
-    transform: translateX(1548px);
+    transform: translateX(420%);
   }
 }
 
 .interval {
-  height: 72px;
+  height: 86px;
   background-color: #013662;
 }
 
@@ -380,11 +380,11 @@ body {
   }
 
   &::before {
-    top: -56px;
+    top: -72px;
   }
 
   &::after {
-    bottom: -56px;
+    bottom: -72px;
   }
 }
 
