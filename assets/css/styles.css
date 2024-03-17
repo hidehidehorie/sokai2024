@@ -210,9 +210,94 @@ body {
   }
 
   /* right */
+  &.messageSection__star--starRight1 {
+    top: 2%;
+    right: 10%;
+  }
+
   &.messageSection__star--moonStar {
     top: 4%;
     right: 4%;
+  }
+
+  &.messageSection__star--starRight2 {
+    top: 9%;
+    right: 6%;
+  }
+
+  &.messageSection__star--starRight3 {
+    top: 14%;
+    right: 7%;
+  }
+
+  &.messageSection__star--starRight4 {
+    top: 17%;
+    right: 9%;
+  }
+
+  &.messageSection__star--planet {
+    top: 20%;
+    right: 1%;
+  }
+
+  &.messageSection__star--starRight5 {
+    top: 29%;
+    right: 10%;
+  }
+
+  &.messageSection__star--starRight6 {
+    top: 31%;
+    right: 3%;
+  }
+
+  &.messageSection__star--starRight7 {
+    top: 36%;
+    right: 10%;
+  }
+
+  &.messageSection__star--starRight8 {
+    top: 38%;
+    right: 4%;
+  }
+
+  &.messageSection__star--starRight9 {
+    top: 43%;
+    right: 9%;
+  }
+
+  &.messageSection__star--starRight10 {
+    top: 49%;
+    right: 3%;
+  }
+
+  &.messageSection__star--starRight11 {
+    top: 55%;
+    right: 10%;
+  }
+
+  &.messageSection__star--starRight12 {
+    top: 62%;
+    right: 7%;
+  }
+
+  &.messageSection__star--starRight13 {
+    top: 68%;
+    right: 2%;
+  }
+
+  &.messageSection__star--starRight14 {
+    top: 74%;
+    right: 8%;
+  }
+
+  &.messageSection__star--starRight15 {
+    top: 81%;
+    right: 10%;
+  }
+
+  &.messageSection__star--starRight16 {
+    top: 84%;
+    right: 3%;
   }
 }
 
