@@ -103,19 +103,116 @@ body {
 .messageSection__star {
   position: absolute;
 
-  &.memberSection__star--shootingStar1 {
-    top: 10px;
-    left: 10px;
+  /* left */
+  &.messageSection__star--shootingStar1 {
+    top: 2%;
+    left: 6%;
   }
 
   &.messageSection__star--shootingStar2 {
-    top: 10px;
-    left: 15px;
+    top: 5.5%;
+    left: 8%;
   }
 
   &.messageSection__star--shootingStar3 {
-    top: 15px;
-    left: 10px;
+    top: 6%;
+    left: 2%;
+  }
+
+  &.messageSection__star--starLeft1 {
+    top: 11%;
+    left: 4%;
+  }
+
+  &.messageSection__star--starLeft2 {
+    top: 14%;
+    left: 9%;
+  }
+
+  &.messageSection__star--starLeft3 {
+    top: 20%;
+    left: 4%;
+  }
+
+  &.messageSection__star--starLeft4 {
+    top: 23%;
+    left: 11%;
+  }
+
+  &.messageSection__star--starLeft5 {
+    top: 24%;
+    left: 1%;
+  }
+
+  &.messageSection__star--starLeft6 {
+    top: 29%;
+    left: 6%;
+  }
+
+  &.messageSection__star--starLeft7 {
+    top: 36%;
+    left: 8%;
+  }
+
+  &.messageSection__star--starLeft8 {
+    top: 38%;
+    left: 4%;
+  }
+
+  &.messageSection__star--starLeft9 {
+    top: 42%;
+    left: 9%;
+  }
+
+  &.messageSection__star--starLeft10 {
+    top: 49%;
+    left: 6%;
+  }
+
+  &.messageSection__star--starLeft11 {
+    top: 55%;
+    left: 7%;
+  }
+
+  &.messageSection__star--starLeft12 {
+    top: 58%;
+    left: 5%;
+  }
+
+  &.messageSection__star--starLeft13 {
+    top: 64%;
+    left: 2%;
+  }
+
+  &.messageSection__star--starLeft14 {
+    top: 69%;
+    left: 7%;
+  }
+
+  &.messageSection__star--starLeft15 {
+    top: 73%;
+    left: 9%;
+  }
+
+  &.messageSection__star--starLeft16 {
+    top: 77%;
+    left: 6%;
+  }
+
+  &.messageSection__star--starLeft17 {
+    top: 82%;
+    left: 11%;
+  }
+
+  &.messageSection__star--starLeft18 {
+    top: 85%;
+    left: 6%;
+  }
+
+  /* right */
+  &.messageSection__star--moonStar {
+    top: 4%;
+    right: 4%;
   }
 }
 
