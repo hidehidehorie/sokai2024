@@ -63,7 +63,7 @@ body {
 }
 
 .messageSection {
-  padding: 40px 0 120px;
+  padding: 60px 0 120px;
   position: relative;
   z-index: 1;
   background: linear-gradient(180deg, #000a22 0%, #013662 100%);
@@ -298,6 +298,31 @@ body {
   &.messageSection__star--starRight16 {
     top: 84%;
     right: 3%;
+  }
+}
+
+.messageSection__party {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 4px;
+  position: absolute;
+  bottom: -4px;
+  left: 6%;
+  animation: move-party auto linear;
+  animation-timeline: scroll();
+
+  img {
+    width: auto;
+    height: 36px;
+  }
+}
+
+@keyframes move-party {
+  0% {
+    transform: translateX(-858px);
+  }
+  100% {
+    transform: translateX(1440px);
   }
 }
 
