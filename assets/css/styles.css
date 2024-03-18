@@ -15,6 +15,7 @@ body {
 
 .sectionContainer {
   width: 100%;
+  max-width: 500px;
   padding-inline: 28px;
   margin-inline: auto;
 }
